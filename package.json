@@ -1,0 +1,22 @@
+{
+  "name": "desktopmind",
+  "version": "0.1.0",
+  "main": "electron-main.ts",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "build": "tsc && webpack"
+  },
+  "dependencies": {
+    "electron": "^29.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "webpack": "^5.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0"
+  }
+}
