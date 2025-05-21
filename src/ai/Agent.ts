@@ -3,8 +3,6 @@ import { suggestDebugging } from "./debugger";
 import { automateTask } from "./automation";
 import { communicate } from "../interface/communicate";
 
-OPENAI_API_KEY="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"
-
 export type AgentConfig = {
   llmApiKey: string;
   enableVoice?: boolean;
