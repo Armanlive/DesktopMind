@@ -27,6 +27,20 @@
 ## App Name
 **DesktopMind**
 
+## how to run 
+1.Open a Terminal
+2.npm install
+3.npx tsc
+4.npx webpack
+5.npm start
+
+How the Application Works
+Electron opens a desktop window.
+The left panel is a placeholder for your desktop/app view.
+The right panel is a chat interface (like ChatGPT) for AI commands.
+You can type commands (e.g., "Find errors", "Open VSCode").
+The app will mock responses or use OpenAI (if you configure your API key).
+
 ---
 
 ## Core Features
